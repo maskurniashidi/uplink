@@ -1,0 +1,17 @@
+.home {
+  background-color: #f7f7f7;
+  min-height: 100vh;
+}
+
+.nav {
+  position: sticky;
+}
+
+.content {
+  width: 317px;
+  min-height: 100vh;
+  margin: 0px auto;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+}
