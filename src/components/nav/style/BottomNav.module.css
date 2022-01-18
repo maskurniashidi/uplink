@@ -1,0 +1,41 @@
+/* global */
+.link {
+  text-decoration: none;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
+  margin-top: 20px;
+}
+
+.bottomNav {
+  width: 360px;
+  height: 61px;
+  background: #ffffff;
+  box-shadow: 0px -4px 4px rgba(0, 0, 0, 0.1);
+  position: fixed;
+  bottom: 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.boxIcon {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(2, 169, 241, 1);
+  border-radius: 50%;
+}
+
+.icon {
+  color: #fff;
+  font-size: 20px;
+}
+
+.text {
+  font-size: 10px;
+}
