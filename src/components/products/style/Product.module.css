@@ -1,0 +1,23 @@
+.cardProduct {
+  width: 320px;
+  height: 277px;
+  background: #ffffff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  border: 1px solid black;
+  padding: 12px 0px;
+  display: flex;
+}
+
+.imageBox {
+  width: 70px;
+  height: 70px;
+  overflow: hidden;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 5px;
+}
+
+.imageProduct {
+  width: 70px;
+  height: 70px;
+}

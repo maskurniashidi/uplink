@@ -8,12 +8,11 @@ function App() {
   return (
     <Router>
       <Switch>
-        <Route exact path="/">
+        <Route path="/maskurnia">
           <Home />
         </Route>
       </Switch>
     </Router>
   );
 }
-
 export default App;

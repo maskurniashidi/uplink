@@ -1,0 +1,15 @@
+.categoryList {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 25px;
+  height: 50px;
+  border-bottom: 2px solid #efefef;
+}
+
+.iconCategory {
+  width: 25px;
+  height: 25px;
+  color: #c4c4c4;
+  display: flex;
+}

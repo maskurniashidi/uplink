@@ -5,6 +5,7 @@ import style from "./Home.module.css";
 import NavSearch from "../../components/nav/NavSearch";
 import BottomNav from "../../components/nav/BottomNav";
 import Company from "../../components/company/Company";
+import ProductContainer from "../../components/products/ProductContainer";
 
 function Home() {
   return (
@@ -12,6 +13,7 @@ function Home() {
       <NavSearch className={style.nav} />
       <div className={style.content}>
         <Company className={style.companyHeader} />
+        <ProductContainer />
       </div>
       <BottomNav />
     </div>
