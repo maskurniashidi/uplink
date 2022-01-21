@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import style from "./Payment.module.css";
 
 //component
@@ -44,7 +45,11 @@ function Payment() {
           <h5 className={style.titleHowToPay}>How To Pay</h5>
         </div>
       </div>
-      <TotalCheckoutNav className={style.totalCheckoutNav} />
+      <div className={style.confirmPaymentContainer}>
+        <Link to={"/transaction"} className={style.btnConfirmPayment}>
+          PAY NOW
+        </Link>
+      </div>
     </div>
   );
 }

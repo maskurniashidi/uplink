@@ -6,6 +6,8 @@ import Checkout from "./view/checkout/Checkout";
 import Landing from "./view/landing/Landing";
 import Address from "./view/Addess/Address";
 import Payment from "./view/payment/Payment";
+import Transaction from "./view/transaction/Transaction";
+import SubsciptionDetail from "./view/subscription/SubsciptionDetail";
 
 function App() {
   return (
@@ -25,6 +27,12 @@ function App() {
         </Route>
         <Route path="/payment">
           <Payment />
+        </Route>
+        <Route path="/transaction">
+          <Transaction />
+        </Route>
+        <Route path="/subscriptionDetail">
+          <SubsciptionDetail />
         </Route>
       </Switch>
     </Router>

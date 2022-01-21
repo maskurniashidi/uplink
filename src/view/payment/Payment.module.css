@@ -134,3 +134,33 @@
 .iconKeyboard {
   color: #02a9f1;
 }
+
+/* btn confirmation */
+.confirmPaymentContainer {
+  width: 360px;
+  height: 61px;
+  background: #02a9f1;
+  box-shadow: 0px -4px 4px rgba(0, 0, 0, 0.1);
+  position: fixed;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  z-index: 99;
+}
+
+.btnConfirmPayment {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+  background: transparent;
+  border: none;
+  outline: none;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 24px;
+  text-align: center;
+  color: #ffffff;
+  text-decoration: none;
+}

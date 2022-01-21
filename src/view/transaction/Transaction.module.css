@@ -1,7 +1,135 @@
 .transaction {
-  background-color: black;
+  background-color: #f8f7f7;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
 
-h1 {
-  color: red;
+.nav {
+  position: sticky;
+  z-index: 3;
+}
+
+.content {
+  width: 360px;
+  min-height: 100vh;
+  background-color: #fff;
+  padding-bottom: 100px;
+}
+
+.contentBox {
+  background: #ffffff;
+  box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  margin: 0px 22px;
+  margin-top: 16px;
+  padding-top: 16px;
+}
+
+/* top */
+.top {
+  padding: 0px 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.cartIcon {
+  font-size: 120px;
+  color: #02a9f1;
+}
+
+.titleTop {
+  font-weight: 600;
+  font-size: 15px;
+  text-align: center;
+  color: #373131;
+  margin: 13px 0px;
+}
+
+.descriptionTop {
+  text-align: center;
+  font-weight: 500;
+  font-size: 10px;
+  color: #494040;
+}
+
+/* bottom */
+.bottom {
+  margin-top: 10px;
+  background: rgba(2, 169, 241, 0.12);
+  padding: 16px 17px;
+}
+
+.titleBottom {
+  font-weight: 500;
+  font-size: 10px;
+  color: #7f8182;
+}
+
+.contentBottom {
+  margin-top: 7px;
+  display: flex;
+}
+
+.productBox {
+  width: 68px;
+  height: 68px;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.product {
+  width: 68px;
+  height: 68px;
+}
+
+.productText {
+  flex: 1;
+  margin-left: 13px;
+}
+
+.productName {
+  font-weight: 600;
+  font-size: 10px;
+  color: #373131;
+}
+
+.productPrice {
+  font-weight: 600;
+  font-size: 10px;
+  color: #d21515;
+}
+
+/* btn confirmation */
+.confirmPaymentContainer {
+  width: 360px;
+  height: 61px;
+  background: #02a9f1;
+  box-shadow: 0px -4px 4px rgba(0, 0, 0, 0.1);
+  position: fixed;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  z-index: 99;
+}
+
+.btnConfirmPayment {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+  background: transparent;
+  border: none;
+  outline: none;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 24px;
+  text-align: center;
+  color: #ffffff;
+  text-decoration: none;
 }
