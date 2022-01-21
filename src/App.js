@@ -8,6 +8,7 @@ import Address from "./view/Addess/Address";
 import Payment from "./view/payment/Payment";
 import Transaction from "./view/transaction/Transaction";
 import SubsciptionDetail from "./view/subscription/SubsciptionDetail";
+import Event from "./view/event/Event";
 
 function App() {
   return (
@@ -33,6 +34,9 @@ function App() {
         </Route>
         <Route path="/subscriptionDetail">
           <SubsciptionDetail />
+        </Route>
+        <Route path="/eventDetail">
+          <Event />
         </Route>
       </Switch>
     </Router>
