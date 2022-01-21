@@ -1,0 +1,38 @@
+.navPrev {
+  width: 100%;
+  height: 60px;
+  background-image: linear-gradient(rgba(2, 133, 241, 1), rgba(0, 222, 243, 1));
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 99;
+}
+
+.content {
+  width: 360px;
+  display: flex;
+  align-items: center;
+  z-index: 99;
+}
+
+.btnArrow {
+  display: flex;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.iconArrow {
+  font-size: 20px;
+  font-weight: 900;
+  color: #fff;
+}
+
+.textArrow {
+  font-weight: bold;
+  font-size: 14px;
+  color: #ffffff;
+  margin-left: 8px;
+}

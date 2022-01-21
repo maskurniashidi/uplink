@@ -1,0 +1,36 @@
+.shippingAddress {
+  display: flex;
+  align-items: center;
+  padding: 13px 18px;
+  background: #ffffff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+}
+
+.iconLocation {
+  font-size: 20px;
+  color: #02a9f1;
+}
+
+.text {
+  flex: 1;
+}
+
+.textTittle {
+  font-weight: 600;
+  font-size: 12px;
+  color: #494040;
+  padding: 0px 9px;
+}
+
+.textDescription {
+  padding: 0px 9px;
+}
+
+.name,
+.number,
+.addressDetail,
+.addressCity {
+  font-weight: normal;
+  font-size: 10px;
+  color: #373131;
+}

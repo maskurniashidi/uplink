@@ -1,0 +1,42 @@
+.totalCheckoutNav {
+  width: 360px;
+  height: 61px;
+  background: #ffffff;
+  box-shadow: 0px -4px 4px rgba(0, 0, 0, 0.1);
+  position: fixed;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  z-index: 99;
+}
+
+.detail {
+  flex: 1;
+  text-align: right;
+  margin-right: 18px;
+}
+
+.title {
+  font-weight: 500;
+  font-size: 12px;
+  color: #494040;
+}
+
+.price {
+  font-weight: 500;
+  font-size: 16px;
+  color: #02a9f1;
+}
+
+.btnBuyNow {
+  width: 120px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #02a9f1;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+}

@@ -1,0 +1,54 @@
+.shippingOption {
+  margin-top: 16px;
+  display: flex;
+  flex-direction: column;
+  padding: 13px 18px;
+  background: #ffffff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+}
+
+.top {
+  border-bottom: 1px solid #e9e0e0;
+}
+
+.tittle {
+  font-weight: 600;
+  font-size: 12px;
+  color: #494040;
+  padding: 7px 0px;
+}
+
+.bottom {
+  padding-top: 16px;
+  display: flex;
+}
+
+.left {
+  flex: 1;
+  display: flex;
+}
+
+.detail {
+  flex: 1;
+}
+
+.kurir {
+  font-weight: 600;
+  font-size: 10px;
+  color: #373131;
+}
+
+.dateShipping {
+  font-weight: normal;
+  font-size: 9px;
+  line-height: 13px;
+  color: #373131;
+}
+
+.price {
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 13px;
+  color: #373131;
+  margin-right: 8px;
+}

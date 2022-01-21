@@ -6,7 +6,7 @@ function ProductByCategory() {
   let { categoryId } = useParams();
   return (
     <div>
-      <h1>{categoryId}</h1>
+      <p>{categoryId}</p>
       <Product />
     </div>
   );

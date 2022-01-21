@@ -1,0 +1,48 @@
+.promoCode {
+  display: flex;
+  flex-direction: column;
+  padding: 13px 18px;
+  background: #ffffff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 24px;
+  color: #494040;
+}
+
+.inputContainer {
+  display: flex;
+  border: 0.5px solid #02a9f1;
+  box-sizing: border-box;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.inputCode {
+  flex: 1;
+  border: none;
+  padding: 0px 9px;
+}
+
+.inputCode::placeholder {
+  font-weight: normal;
+  font-size: 10px;
+  color: #b2b5b7;
+}
+
+.inputCode:focus {
+  border: none;
+  outline: none;
+}
+
+.btnPromo {
+  width: 84px;
+  height: 33px;
+  color: #fff;
+  background: #02a9f1;
+  border-radius: 5px;
+  border: none;
+}

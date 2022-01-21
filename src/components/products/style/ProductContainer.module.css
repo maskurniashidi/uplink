@@ -1,3 +1,9 @@
+.productContainer {
+  border-radius: 10px 10px 0px 0px;
+  background-color: #f8f7f7;
+  position: relative;
+  top: -20px;
+}
 .categoryList {
   display: flex;
   justify-content: space-between;

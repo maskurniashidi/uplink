@@ -9,6 +9,7 @@ import { MdOutlineShoppingBag } from "react-icons/md";
 import { BsBoxSeam } from "react-icons/bs";
 import { RiHandHeartLine } from "react-icons/ri";
 import { TiMessages } from "react-icons/ti";
+import Product from "./Product";
 function ProductContainer() {
   let { path, url } = useRouteMatch();
   console.log(url);
@@ -34,7 +35,8 @@ function ProductContainer() {
 
       <Switch>
         <Route exact path={path}>
-          <h3>all product</h3>
+          <p>semua produk</p>
+          <Product />
         </Route>
         <Route path={`${path}/:categoryId`}>
           <ProductByCategory />
