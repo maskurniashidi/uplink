@@ -6,7 +6,6 @@ import style from "./Payment.module.css";
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 import { FaRegKeyboard } from "react-icons/fa";
 import PreviousNav from "../../components/nav/PreviousNav";
-import TotalCheckoutNav from "../../components/nav/TotalCheckoutNav";
 import LogoPaymentMethod from "../../assets/images/ovo.png";
 function Payment() {
   return (

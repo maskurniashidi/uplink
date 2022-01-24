@@ -7,7 +7,6 @@ import style from "./Event.module.css";
 import PreviousNav from "../../components/nav/PreviousNav";
 import { MdDateRange } from "react-icons/md";
 import { AiOutlineClockCircle } from "react-icons/ai";
-import { IoPricetagOutline } from "react-icons/io";
 import { IoIosPricetag } from "react-icons/io";
 function Event() {
   return (

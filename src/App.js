@@ -9,6 +9,7 @@ import Payment from "./view/payment/Payment";
 import Transaction from "./view/transaction/Transaction";
 import SubsciptionDetail from "./view/subscription/SubsciptionDetail";
 import Event from "./view/event/Event";
+import Support from "./view/support/Support";
 
 function App() {
   return (
@@ -37,6 +38,9 @@ function App() {
         </Route>
         <Route path="/eventDetail">
           <Event />
+        </Route>
+        <Route path="/support">
+          <Support />
         </Route>
       </Switch>
     </Router>
