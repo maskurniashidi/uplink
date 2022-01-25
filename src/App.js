@@ -21,6 +21,9 @@ function App() {
         <Route path="/maskurnia">
           <Home />
         </Route>
+        <Route path="/landing">
+          <Landing />
+        </Route>
         <Route path="/checkout">
           <Checkout />
         </Route>
