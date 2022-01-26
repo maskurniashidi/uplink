@@ -17,7 +17,7 @@ function Support() {
             <button className={style.increase}>+</button>
           </div>
           <h5 className={style.totalText}>Total</h5>
-          <p className={style.price}>2 x Coffea</p>
+          <p className={style.price}>2 x Coffea = Rp. 40.000</p>
           <h5 className={style.descriptionTitle}>Description</h5>
           <p className={style.descriptionText}>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eu, ultrices morbi quis facilisis lacus. Viverra nulla maecenas proin ullamcorper ultrices feugiat volutpat mollis. Risus sit sit mauris mauris. Diam lectus vel sem

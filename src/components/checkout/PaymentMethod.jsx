@@ -1,5 +1,6 @@
 import React from "react";
 import style from "./style/PaymentMethod.module.css";
+import { Link } from "react-router-dom";
 
 //component
 import { FaMoneyCheckAlt } from "react-icons/fa";
@@ -9,13 +10,15 @@ function PaymentMethod() {
   return (
     <div className={style.paymentMethod}>
       <h5 className={style.title}>Payment</h5>
-      <div className={style.container}>
-        <div className={style.containerLeft}>
-          <FaMoneyCheckAlt className={style.iconPayment} />
-          <p className={style.text}>Payment Methods</p>
+      <Link to={"/paymentlist"}>
+        <div className={style.container}>
+          <div className={style.containerLeft}>
+            <FaMoneyCheckAlt className={style.iconPayment} />
+            <p className={style.text}>Payment Methods</p>
+          </div>
+          <MdOutlineKeyboardArrowRight className={style.iconArrow} />
         </div>
-        <MdOutlineKeyboardArrowRight className={style.iconArrow} />
-      </div>
+      </Link>
     </div>
   );
 }

@@ -1,5 +1,5 @@
 import React from "react";
-import style from "./Checkout.module.css";
+import style from "./style/CheckoutProduct.module.css";
 import ShippingAddress from "../../components/checkout/ShippingAddress";
 import NavSearch from "../../components/nav/NavSearch";
 import BottomNav from "../../components/nav/BottomNav";
@@ -11,7 +11,7 @@ import PaymentMethod from "../../components/checkout/PaymentMethod";
 import PromoCode from "../../components/checkout/PromoCode";
 import PricingDetail from "../../components/checkout/PricingDetail";
 import TotalCheckoutNav from "../../components/nav/TotalCheckoutNav";
-function Checkout() {
+function CheckoutProduct() {
   return (
     <div>
       <div className={style.home}>
@@ -31,4 +31,4 @@ function Checkout() {
   );
 }
 
-export default Checkout;
+export default CheckoutProduct;

@@ -1,0 +1,127 @@
+.paymentList_xy1 {
+  background-color: #f8f7f7;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.nav_xy1 {
+  position: sticky;
+  z-index: 3;
+}
+
+.content_xy1 {
+  width: 360px;
+  min-height: 100vh;
+  background-color: #fff;
+  padding: 10px 25px;
+}
+
+.title_xy1 {
+  font-weight: 600;
+  font-size: 13px;
+  color: #494040;
+}
+
+/* dropdown */
+.container_xy1 {
+  width: 320px;
+  margin: 20px auto;
+  padding: 10px 5px;
+  background: #ffffff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  // background: blueviolet;
+  .tab_xy1 {
+    width: 100%;
+    color: #000;
+    overflow: hidden;
+    padding: 0px 10px;
+
+    .input_xy1 {
+      position: absolute;
+      opacity: 0;
+      z-index: -1;
+    }
+
+    .tabTitle_xy1 {
+      display: flex;
+      align-items: center;
+
+      .iconBank_xy1 {
+        width: 15px;
+        height: 15px;
+      }
+
+      .tabLabel_xy1 {
+        flex: 1;
+        display: flex;
+        justify-content: space-between;
+        padding: 10px;
+        font-weight: 300;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        // background-color: aqua;
+        font-weight: 600;
+        font-size: 12px;
+        color: #494040;
+
+        &::after {
+          content: "\276F";
+          width: 1em;
+          height: 1em;
+          text-align: center;
+          transition: all 0.35s;
+          color: #02a9f1;
+        }
+      }
+    }
+
+    .tabContent_xy1 {
+      max-height: 0;
+      padding: 0 1em;
+      transition: all 0.35s;
+
+      .boxesEvents_xy1 {
+        border-top: 1px solid #f5f8fa;
+        .bankEvent_xy1 {
+          margin-top: 20px;
+          margin-bottom: 15px;
+          text-decoration: none;
+          color: #000;
+          // background-color: #02a9f1;
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          .bankImage {
+            width: 30px;
+            height: 30px;
+          }
+          .contentSelect_xy1 {
+            flex: 1;
+            // background-color: red;
+            padding: 0px 10px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+          }
+        }
+      }
+    }
+  }
+
+  .input_xy1:checked {
+    + .tabLabel_xy1 {
+      &::after {
+        transform: rotate(90deg);
+      }
+    }
+    ~ .tabContent_xy1 {
+      max-height: 100vh;
+      padding: 1em;
+    }
+  }
+}

@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import style from "./Payment.module.css";
+import style from "./style/Payment.module.css";
 
 //component
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";

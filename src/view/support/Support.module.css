@@ -24,6 +24,7 @@
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
   border-radius: 5px;
   margin: 16px 20px;
+  padding: 5px 17px;
 }
 
 .title {
@@ -38,6 +39,7 @@
   background: rgba(2, 169, 241, 0.13);
   border-radius: 5px;
   display: flex;
+  margin: 5px 0px 21px 0px;
 }
 
 .inputField {
@@ -69,4 +71,55 @@
   font-weight: normal;
   font-size: 12px;
   color: #494040;
+  margin: 5px 0px 12px 0px;
+}
+
+.descriptionTitle {
+  font-weight: 600;
+  font-size: 12px;
+  color: #494040;
+}
+
+.descriptionText {
+  font-weight: normal;
+  font-size: 12px;
+  text-align: justify;
+  color: #494040;
+  margin: 5px 0px 16px 0px;
+}
+
+.copyDesc {
+  font-weight: 500;
+  font-size: 12px;
+  color: #7f8182;
+}
+
+/* btn confirmation */
+.wantContainer {
+  width: 360px;
+  height: 61px;
+  background: #02a9f1;
+  box-shadow: 0px -4px 4px rgba(0, 0, 0, 0.1);
+  position: fixed;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  z-index: 99;
+}
+
+.btnWantThis {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+  background: transparent;
+  border: none;
+  outline: none;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 24px;
+  text-align: center;
+  color: #ffffff;
+  text-decoration: none;
 }

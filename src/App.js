@@ -2,7 +2,7 @@ import "./App.css";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 //component
 import Home from "./view/home/Home";
-import Checkout from "./view/checkout/Checkout";
+import CheckoutProduct from "./view/checkout/CheckoutProduct";
 import Landing from "./view/landing/Landing";
 import Address from "./view/Addess/Address";
 import Payment from "./view/payment/Payment";
@@ -10,6 +10,10 @@ import Transaction from "./view/transaction/Transaction";
 import SubsciptionDetail from "./view/subscription/SubsciptionDetail";
 import Event from "./view/event/Event";
 import Support from "./view/support/Support";
+import PaymentList from "./view/payment/PaymentList";
+import CheckoutSubscription from "./view/checkout/CheckoutSubscription";
+import CheckoutEvent from "./view/checkout/CheckoutEvent";
+import CheckoutSupport from "./view/checkout/CheckoutSupport";
 
 function App() {
   return (
@@ -21,14 +25,26 @@ function App() {
         <Route path="/maskurnia">
           <Home />
         </Route>
-        <Route path="/checkout">
-          <Checkout />
+        <Route path="/checkoutproduct">
+          <CheckoutProduct />
+        </Route>
+        <Route path="/checkoutsubscription">
+          <CheckoutSubscription />
+        </Route>
+        <Route path="/checkoutevent">
+          <CheckoutEvent />
+        </Route>
+        <Route path="/checkoutsupport">
+          <CheckoutSupport />
         </Route>
         <Route path="/address">
           <Address />
         </Route>
         <Route path="/payment">
           <Payment />
+        </Route>
+        <Route path="/paymentlist">
+          <PaymentList />
         </Route>
         <Route path="/transaction">
           <Transaction />
