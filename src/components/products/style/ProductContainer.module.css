@@ -19,3 +19,9 @@
   color: #c4c4c4;
   display: flex;
 }
+.iconCategoryActive {
+  width: 25px;
+  height: 25px;
+  color: #02a9f1;
+  display: flex;
+}

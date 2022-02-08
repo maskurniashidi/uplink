@@ -2,6 +2,7 @@ import "./App.css";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 //component
 import Home from "./view/home/Home";
+import NotFound from "./view/NotFound";
 import CheckoutProduct from "./view/checkout/CheckoutProduct";
 import Landing from "./view/landing/Landing";
 import Address from "./view/Addess/Address";
@@ -22,7 +23,10 @@ function App() {
         <Route exact path="/">
           <Landing />
         </Route>
-        <Route path="/maskurnia">
+        <Route path="/404">
+          <NotFound />
+        </Route>
+        <Route path="/:username/:viewing?">
           <Home />
         </Route>
         <Route path="/checkoutproduct">

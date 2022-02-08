@@ -8,15 +8,15 @@ import tiktok from "../../assets/images/tiktok.png";
 import wa from "../../assets/images/wa.png";
 import yt from "../../assets/images/yt.png";
 
-function Company() {
+function Company({profile}) {
   return (
     <div className={style.company}>
       <div className={style.detail}>
         <div className={style.boxLogo}>
           <img src={LogoCompany} alt="logo perusahaan" className={style.logoCompany} />
         </div>
-        <h4 className={style.companyName}>Dailyhotels.id</h4>
-        <p className={style.companyDescription}>Indonesia Hospitality & Media Ecosystem - Hotel, Resort & Villa, Restaurant, Association, Vendor</p>
+        <h4 className={style.companyName}>{profile.name}</h4>
+        <p className={style.companyDescription}>{profile.bio}</p>
       </div>
       <div className={style.socialList}>
         <div className={style.social}>
