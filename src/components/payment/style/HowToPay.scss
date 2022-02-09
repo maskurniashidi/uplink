@@ -1,0 +1,74 @@
+/* dropdown */
+.container_xy2 {
+  width: 320px;
+  margin: 20px auto;
+  padding: 10px 5px;
+  background: #ffffff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  // background: blueviolet;
+  .tab_xy2 {
+    width: 100%;
+    color: #000;
+    overflow: hidden;
+    padding: 0px 10px;
+
+    .input_xy2 {
+      position: absolute;
+      opacity: 0;
+      z-index: -1;
+    }
+
+    .tabTitle_xy2 {
+      display: flex;
+      align-items: center;
+
+      .iconBank_xy2 {
+        width: 15px;
+        height: 15px;
+      }
+
+      .tabLabel_xy2 {
+        flex: 1;
+        display: flex;
+        justify-content: space-between;
+        padding: 10px;
+        font-weight: 300;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        // background-color: aqua;
+        font-weight: 600;
+        font-size: 12px;
+        color: #494040;
+
+        &::after {
+          content: "\276F";
+          width: 1em;
+          height: 1em;
+          text-align: center;
+          transition: all 0.35s;
+          color: #02a9f1;
+        }
+      }
+    }
+
+    .tabContent_xy2 {
+      max-height: 0;
+      padding: 0 1em;
+      transition: all 0.35s;
+    }
+  }
+
+  .input_xy2:checked {
+    + .tabLabel_xy2 {
+      &::after {
+        transform: rotate(90deg);
+      }
+    }
+    ~ .tabContent_xy2 {
+      max-height: 100vh;
+      padding: 1em;
+    }
+  }
+}

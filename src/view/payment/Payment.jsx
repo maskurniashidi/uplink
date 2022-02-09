@@ -7,6 +7,7 @@ import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 import { FaRegKeyboard } from "react-icons/fa";
 import PreviousNav from "../../components/nav/PreviousNav";
 import LogoPaymentMethod from "../../assets/images/ovo.png";
+import HowToPay from "../../components/payment/HowToPay";
 function Payment() {
   return (
     <div className={style.payment}>
@@ -40,10 +41,12 @@ function Payment() {
         </div>
 
         {/* how to pay */}
-        <div className={style.howToPay}>
+        {/* <div className={style.howToPay}>
           <h5 className={style.titleHowToPay}>How To Pay</h5>
-        </div>
+        </div> */}
+        <HowToPay className={style.howToPay} />
       </div>
+
       <div className={style.confirmPaymentContainer}>
         <Link to={"/transaction"} className={style.btnConfirmPayment}>
           PAY NOW
