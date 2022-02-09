@@ -15,6 +15,7 @@ import PaymentList from "./view/payment/PaymentList";
 import CheckoutSubscription from "./view/checkout/CheckoutSubscription";
 import CheckoutEvent from "./view/checkout/CheckoutEvent";
 import CheckoutSupport from "./view/checkout/CheckoutSupport";
+import DetailModal from "./components/modal/DetailModal";
 
 function App() {
   return (
@@ -61,6 +62,9 @@ function App() {
         </Route>
         <Route path="/support">
           <Support />
+        </Route>
+        <Route path="/modal">
+          <DetailModal />
         </Route>
       </Switch>
     </Router>
