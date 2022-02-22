@@ -5,6 +5,7 @@ import Home from "./view/home/Home";
 import NotFound from "./view/NotFound";
 import CheckoutProduct from "./view/checkout/CheckoutProduct";
 import Landing from "./view/landing/Landing";
+import LandingNew from "./view/landingnew/LandingNew";
 import Address from "./view/Addess/Address";
 import Payment from "./view/payment/Payment";
 import Transaction from "./view/transaction/Transaction";
@@ -23,6 +24,9 @@ function App() {
       <Switch>
         <Route exact path="/">
           <Landing />
+        </Route>
+        <Route exact path="/landingnew">
+          <LandingNew />
         </Route>
         <Route path="/404">
           <NotFound />
