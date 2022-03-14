@@ -6,6 +6,8 @@ import NotFound from "./view/NotFound";
 import CheckoutProduct from "./view/checkout/CheckoutProduct";
 import Landing from "./view/landing/Landing";
 import LandingNew from "./view/landingnew/LandingNew";
+import ContactUs from "./view/contactus/ContactUs";
+import Faq from "./view/faq/Faq";
 import Address from "./view/Addess/Address";
 import Payment from "./view/payment/Payment";
 import Transaction from "./view/transaction/Transaction";
@@ -27,6 +29,12 @@ function App() {
         </Route>
         <Route exact path="/landingnew">
           <LandingNew />
+        </Route>
+        <Route exact path="/contactus">
+          <ContactUs />
+        </Route>
+        <Route exact path="/faq">
+          <Faq />
         </Route>
         <Route path="/404">
           <NotFound />
