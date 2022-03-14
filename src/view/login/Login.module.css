@@ -1,9 +1,125 @@
-/* .contentContainer{
+.login{
   display: flex;
-  justify-content: center;
-  padding: 100px;
+  flex-direction: row;
+  width: 100%;
 }
 
-.footerContainer{
-  margin-top: 100px;
-} */
+.loginLeftContainer{
+  background-image: url("../../assets/images/backgroundIcons.svg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 40%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+
+.loginLeftContainerInner{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.loginLeftTitle{
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 40px;
+}
+
+.loginLeftDescription{
+  width: 60%;
+  text-align: center;
+  margin-bottom: 40px;
+  font-weight: 400;
+}
+
+.loginLeftButtonContainer{
+  width: 100%;
+  text-align: center;
+}
+
+.buttonSwapLogin{
+  background-color: transparent;
+  border: 1px solid white;
+  width: 35%;
+  height: 40px;
+  border-radius: 20px;
+  color: white;
+}
+
+/* Right Container */
+
+.loginRightContainer{
+  width: 60%;
+  display: flex;
+  justify-content: center;
+}
+
+.loginRightContainerInner{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.loginRightTitle{
+  font-size: 36px;
+  font-weight: 700;
+  color: #02A9F1;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.loginRightText{
+  color: #8F959D;
+}
+
+.loginRightIcons{
+  display: flex;
+  flex-direction: row;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.loginIcon{
+  width: 30px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.loginRightInput{
+  width: 100%;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.loginRightregisterForm{
+  width: 100%;
+}
+
+.loginRightregisterInput{
+  border-radius: 10px;
+  background-color: #EFF2F1;
+  color: #AFAFAF;
+  width: 100%;
+  height: 40px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  border: none;
+}
+
+.buttonSignupContainer{
+  width: 100%;
+  text-align: center;
+}
+
+.buttonSignup{
+  background-color: #02A9F1;
+  border: none;
+  width: 50%;
+  height: 40px;
+  border-radius: 20px;
+  color: white;
+}

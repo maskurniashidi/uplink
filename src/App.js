@@ -8,6 +8,7 @@ import Landing from "./view/landing/Landing";
 import LandingNew from "./view/landingnew/LandingNew";
 import ContactUs from "./view/contactus/ContactUs";
 import Faq from "./view/faq/Faq";
+import Login from "./view/login/Login";
 import Address from "./view/Addess/Address";
 import Payment from "./view/payment/Payment";
 import Transaction from "./view/transaction/Transaction";
@@ -35,6 +36,9 @@ function App() {
         </Route>
         <Route exact path="/faq">
           <Faq />
+        </Route>
+        <Route exact path="/login">
+          <Login />
         </Route>
         <Route path="/404">
           <NotFound />
