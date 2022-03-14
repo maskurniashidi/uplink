@@ -15,22 +15,22 @@ function NavHome() {
           <img src={uplinkLogo} alt="" className={style.socialIcon} />
         </div>
         <div className={style.options}>
-          Tentang Kami
+          About Us
         </div>
         <div className={style.options}>
-          Layanan
+          Product
         </div>
         <div className={style.options}>
-          Keunggulan
+          Blog
         </div>
         <div className={style.options}>
-          Harga
-        </div>
-        <div className={style.options}>
-          Team
+          Price
         </div>
         <div className={style.options}>
           Contact
+        </div>
+        <div className={style.options}>
+          FAQ
         </div>
         <div className={style.signup}>
           Sign Up Free

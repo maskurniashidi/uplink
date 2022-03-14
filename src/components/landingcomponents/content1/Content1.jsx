@@ -15,7 +15,7 @@ function Content1() {
     return (
         <div className={style.content1}>
             {/* content 1 - start */}
-            {/* <NavHome className={style.nav} /> */}
+            <NavHome className={style.nav} />
             {/* <NavbarBoots/> */}
             <div className={style.content1_inside}>
                 <div className={style.dotgroup}>

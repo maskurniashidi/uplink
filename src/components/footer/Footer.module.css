@@ -1,0 +1,101 @@
+.footerContainer{
+    /* background-image: url("../../assets/images/Footer.svg");
+    background-repeat: no-repeat;
+    background-size: 100%; */
+    /* background-position: center; */
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-image: linear-gradient(#02A9F1, #00DDF3);
+}
+
+.footerUpper{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 100px;
+}
+
+.logoContainer{
+    width: 100px;
+}
+
+.FooterLogoUplink{
+    width: 100px;
+}
+
+.footerMid{
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    justify-content: center;
+    width: 80%;
+}
+
+.footerMidContent{
+    display: flex;
+    flex-direction: row;
+    top: 0;
+    width: 25%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.Description{
+    display: flex;
+    flex-direction: column;
+}
+
+.TitleText{
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.TitleDescription{
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.TitleIcon{
+    margin-right: 20px;
+}
+
+.footerBottomFirst{
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid white;
+}
+
+.footerBottomFirstContent{
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.footerBottomSecond{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.footerBottomAbsolute{
+    display: flex;
+    flex-direction: row;
+    margin-left: 40px;
+}
+
+.FooterLogo{
+    width: 30px;
+}
+
+.FooterLogoSocmed{
+    width: 20px;
+    margin-right: 5px;
+    margin-left: 5px;
+}
