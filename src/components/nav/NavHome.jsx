@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from 'react-router-dom'
 import style from "./style/NavHome.module.css";
 
 //component
@@ -32,9 +33,9 @@ function NavHome() {
         <div className={style.options}>
           FAQ
         </div>
-        <div className={style.signup}>
+        <Link to="/register"><div className={style.signup}>
           Sign Up Free
-        </div>
+        </div></Link>
       </div>
     </div>
   );
