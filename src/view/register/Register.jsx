@@ -1,18 +1,31 @@
 import React from "react";
 import { Link } from 'react-router-dom'
-import style from "./Login.module.css";
+import style from "./Register.module.css";
 
 //assets
 import Google from "../../assets/images/googleaccount.svg";
 import Facebook from "../../assets/images/facebookaccount.svg";
 
-function Login() {
+function Register() {
   return (
     <div className={style.login}>
+        <div className={style.loginLeftContainer}>
+            <div className={style.loginLeftContainerInner}>
+                <div className={style.loginLeftTitle}>
+                    Welcome Back!
+                </div>
+                <div className={style.loginLeftDescription}>
+                    To keep connected with us pelase login with your personal info
+                </div>
+                <div className={style.loginLeftButtonContainer}>
+                    <Link to="/login"><button className={style.buttonSwapLogin}>LOGIN</button></Link>
+                </div>
+            </div>
+        </div>
         <div className={style.loginRightContainer}>
             <div className={style.loginRightContainerInner}>
                 <div className={style.loginRightTitle}>
-                    Sign In to Uplink
+                    Create Account
                 </div>
                 <div className={style.loginRightIcons}>
                     <div className={style.googleAccount}>
@@ -33,25 +46,27 @@ function Login() {
                     </form>
                     <form className={style.loginRightregisterForm}>
                         <label className={style.loginRightregisterLabel}>
+                            <input type="text" placeholder="uplink.id/" className={style.loginRightregisterInput} />
+                        </label>
+                    </form>
+                    <form className={style.loginRightregisterForm}>
+                        <label className={style.loginRightregisterLabel}>
+                            <input type="text" placeholder="Telp" className={style.loginRightregisterInput} />
+                        </label>
+                    </form>
+                    <form className={style.loginRightregisterForm}>
+                        <label className={style.loginRightregisterLabel}>
                             <input type="text" placeholder="Password" className={style.loginRightregisterInput} />
+                        </label>
+                    </form>
+                    <form className={style.loginRightregisterForm}>
+                        <label className={style.loginRightregisterLabel}>
+                            <input type="text" placeholder="uplink.id/" className={style.loginRightregisterInput} />
                         </label>
                     </form>
                 </div>
                 <div className={style.buttonSignupContainer}>
-                    <Link to="/"><button className={style.buttonSignup}>LOGIN</button></Link>
-                </div>
-            </div>
-        </div>
-        <div className={style.loginLeftContainer}>
-            <div className={style.loginLeftContainerInner}>
-                <div className={style.loginLeftTitle}>
-                    Hello, Friend!
-                </div>
-                <div className={style.loginLeftDescription}>
-                    Enter your personal details and start journey with us
-                </div>
-                <div className={style.loginLeftButtonContainer}>
-                    <Link to="/register"><button className={style.buttonSwapLogin}>SIGN UP</button></Link>
+                    <Link to="/login"><button className={style.buttonSignup}>SIGN UP</button></Link>
                 </div>
             </div>
         </div>
@@ -59,4 +74,4 @@ function Login() {
   );
 }
 
-export default Login;
+export default Register;
